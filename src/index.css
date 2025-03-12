@@ -1,1 +1,43 @@
 @import "tailwindcss";
+
+.container2 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (min-width: 1400px) {
+    .container2 {
+        width: 1350px;
+    }
+}
+
+button,
+input {
+    outline: none;
+    user-select: none;
+}
+
+button {
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f05a00;
+}
+
+.swiper-pagination-bullet {
+    background: #fff;
+}
+
+.swiper-pagination-bullet-active {
+    background: #f05a00;
+}
